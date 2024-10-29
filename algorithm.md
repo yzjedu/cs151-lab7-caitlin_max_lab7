@@ -1,15 +1,19 @@
 # Algorithm Document
 #### PLEASE! PLEASE! PLEASE! THINK before you code...
+* purpose: call the whole program
+* name: main
+* parameter: none
+* return: the program
+* algorithm:
+  1. count = 0
+  2. total price = 0
+  3. while count < 5:
+  4. call func_area, func-floor_type, and room_price
 
-1. count = 0
-2. total price = 0
-3. while count < 5:
-4. call func_area, func-floor_type, and room_price
 
-
-* purpose: calculates price of room 
+* purpose: calculates area of room 
 * name: func_area
-* parameter: width, length
+* parameter: none
 * return: area
 * algorithm:
   1. set width equal to user input
