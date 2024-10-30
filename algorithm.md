@@ -5,10 +5,24 @@
 * parameter: none
 * return: the program
 * algorithm:
-  1. count = 0
-  2. total price = 0
-  3. while count < 5:
-  4. call func_area, func-floor_type, and room_price
+  1. set play equal to user input of either yes or no
+  2. while play is not yes or no
+     1. set play equal to user input of either yes or no
+  3. while play is equal to yes
+     1. set count equal to zero
+  4. set total price equal to zero
+  5. while count is less than 5
+     1. call func_area
+     2. call func_floor_type
+     3. call room_price
+     4. set count equal to count plus 1
+     5. set total price equal to total price plus room price
+     6. print total price
+  6. set play equal to user input of either yes or no
+  7. while play is not equal to yes or no
+     1. set play equal to user input of either yes or no
+  8. if play is equal to no
+     1. print thank you for using this program
 
 
 * purpose: calculates area of room 
@@ -47,5 +61,4 @@
   3. count += 1
   4. total price is equal to total price + room price(func_area, func_floor_type)
 
-5. print total price
 
