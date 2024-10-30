@@ -12,6 +12,7 @@
 # Parameters: none
 # Return: none
 def main():
+    print('This code allows user to find the price of flooring in a house with five rooms based on flooring type.')
     play = input('Would you like to run this program: Yes/No ').lower()
     while play not in ['yes', 'no']:
         play = input('Would you like to run this program: Yes/No ').lower()
